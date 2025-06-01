@@ -8,14 +8,12 @@ This project uses a **Physics-Informed Neural Network (PINN)** to model the damp
 
 We analyzed an experiment of a metal sphere oscillating vertically in water. The motion follows a second-order differential equation representing a **damped harmonic oscillator**:
 
-\[
-\frac{d^2y}{dt^2} + 2\zeta \omega \frac{dy}{dt} + \omega^2 y = 0
-\]
+d²y/dt² + 2ζω dy/dt + ω²y = 0
 
 Where:
-- \( y(t) \): position over time
-- \( \zeta \): damping ratio
-- \( \omega \): natural frequency
+- y(t): position over time
+- ζ: damping ratio
+- ω: natural frequency
 
 ---
 
